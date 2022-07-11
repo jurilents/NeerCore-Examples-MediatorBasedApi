@@ -1,4 +1,3 @@
-using System.Globalization;
 using MiddleTemplate.Application;
 using MiddleTemplate.Data;
 using MiddleTemplate.Infrastructure;
@@ -7,7 +6,6 @@ using NeerCore.Api.Extensions;
 using NeerCore.Api.Extensions.Swagger;
 using NLog;
 
-CultureInfo.CurrentCulture = new CultureInfo("en");
 var logger = LoggerInstaller.InitDefault();
 
 try
