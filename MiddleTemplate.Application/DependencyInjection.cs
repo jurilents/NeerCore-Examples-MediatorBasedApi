@@ -12,17 +12,12 @@ public static class DependencyInjection
 	{
 		services.AddMediatorApplicationFromCurrentAssembly();
 		services.BindConfigurationOptions(configuration);
-		services.RegisterMappings();
+		services.RegisterMappers();
 	}
 
 
 	private static void BindConfigurationOptions(this IServiceCollection services, IConfiguration configuration)
 	{
 		// services.Configure<SmtpOptions>(configuration.GetSection("Smtp"));
-	}
-
-	private static void RegisterMappings(this IServiceCollection services)
-	{
-		services.RegisterMapper<MapperRegister>();
 	}
 }
