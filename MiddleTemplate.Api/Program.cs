@@ -1,4 +1,3 @@
-using System.Globalization;
 using MiddleTemplate.Application;
 using MiddleTemplate.Data;
 using MiddleTemplate.Infrastructure;
