@@ -12,6 +12,6 @@ public class SqliteDbContext : DbContext, IDatabaseContext
     protected override void OnModelCreating(ModelBuilder builder)
     {
         builder.ApplyConfigurations();
-        builder.SeedDefaultData();
+        builder.ApplyDataSeeders();
     }
 }
