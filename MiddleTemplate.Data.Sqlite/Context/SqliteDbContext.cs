@@ -6,12 +6,12 @@ namespace MiddleTemplate.Data.Context;
 
 public class SqliteDbContext : DbContext, IDatabaseContext
 {
-	public SqliteDbContext(DbContextOptions options) : base(options) { }
+    public SqliteDbContext(DbContextOptions options) : base(options) { }
 
 
-	protected override void OnModelCreating(ModelBuilder builder)
-	{
-		builder.ApplyConfigurationsFromCurrentAssembly();
-		builder.SeedDefaultData();
-	}
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        builder.ApplyConfigurations();
+        builder.SeedDefaultData();
+    }
 }
