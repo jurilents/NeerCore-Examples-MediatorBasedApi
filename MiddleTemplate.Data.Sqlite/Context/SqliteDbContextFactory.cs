@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NeerCore.Data.EntityFramework;
 using NeerCore.Data.EntityFramework.Design;
 
 namespace MiddleTemplate.Data.Context;
