@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using MiddleTemplate.Application.Features.Teas.Models;
+using MiddleTemplate.Application.Features.Teas.Commands;
 using MiddleTemplate.Data.Entities;
 using MiddleTemplate.Data.Extensions;
 using NeerCore.Data.EntityFramework.Abstractions;

@@ -1,6 +1,7 @@
 ﻿using MediatR;
+using MiddleTemplate.Application.Models;
 
-namespace MiddleTemplate.Application.Features.Teas.Models;
+namespace MiddleTemplate.Application.Features.Teas.Queries;
 
 public class TeaByIdQuery : IRequest<TeaModel>
 {

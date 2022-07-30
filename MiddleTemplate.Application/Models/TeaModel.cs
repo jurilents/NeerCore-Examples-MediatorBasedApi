@@ -1,4 +1,4 @@
-﻿namespace MiddleTemplate.Application.Features.Teas.Models;
+﻿namespace MiddleTemplate.Application.Models;
 
 public class TeaModel
 {
