@@ -8,10 +8,9 @@ public class SqliteDbContext : DbContext, IDatabaseContext
 {
     public SqliteDbContext(DbContextOptions options) : base(options) { }
 
-
     protected override void OnModelCreating(ModelBuilder builder)
     {
-        builder.ApplyConfigurations();
-        builder.ApplyDataSeeders();
+        builder.ApplyAllConfigurations();
+        builder.ApplyAllDataSeeders();
     }
 }
