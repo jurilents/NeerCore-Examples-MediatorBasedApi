@@ -8,7 +8,8 @@ public static class DependencyInjection
 {
     public static void AddApplication(this IServiceCollection services)
     {
-        services.AddMediatorApplication();
+        // TODO: Fixed in v1.5.0
+        services.AddMediatorApplicationFromCurrentAssembly();
         services.RegisterAllMappers();
     }
 }
