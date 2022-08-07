@@ -4,7 +4,7 @@ using MiddleTemplate.Data.Entities;
 
 namespace MiddleTemplate.Application.Mappings;
 
-public class TeasMappingRegister : IRegister
+public class TeasMappings : IRegister
 {
     private const decimal BtcRate = 0.000034m;
 
