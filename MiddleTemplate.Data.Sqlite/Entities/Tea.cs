@@ -3,20 +3,20 @@ using Sieve.Attributes;
 
 namespace MiddleTemplate.Data.Entities;
 
-public class Tea : IDatedEntity<Guid>
+public class Tea : IDateableEntity<Guid>
 {
-	[Sieve(CanFilter = true, CanSort = true)]
-	public Guid Id { get; init; } = Guid.NewGuid();
+    [Sieve(CanFilter = true, CanSort = true)]
+    public Guid Id { get; init; } = Guid.NewGuid();
 
-	[Sieve(CanFilter = true, CanSort = true)]
-	public string Name { get; init; } = default!;
+    [Sieve(CanFilter = true, CanSort = true)]
+    public string Name { get; init; } = default!;
 
-	[Sieve(CanFilter = true, CanSort = true, Name = "priceUSD")]
-	public decimal Price { get; init; }
+    [Sieve(CanFilter = true, CanSort = true, Name = "priceUSD")]
+    public decimal Price { get; init; }
 
-	[Sieve(CanFilter = true, CanSort = true)]
-	public DateTime? Updated { get; init; }
+    [Sieve(CanFilter = true, CanSort = true)]
+    public DateTime? Updated { get; init; }
 
-	[Sieve(CanFilter = true, CanSort = true)]
-	public DateTime Created { get; init; } = DateTime.UtcNow;
+    [Sieve(CanFilter = true, CanSort = true)]
+    public DateTime Created { get; init; } = DateTime.UtcNow;
 }
