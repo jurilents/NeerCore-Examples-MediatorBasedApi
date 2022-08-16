@@ -1,2 +1,2 @@
-# NeerCore project template
+# MediatR-based NeerCore project template
 
