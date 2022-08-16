@@ -1,6 +1,7 @@
+# TODO: Uncomment for you
+# appsettings.Secrets.json
+
 # JetBrains Rider cache
-riderModule.iml
-/_ReSharper.Caches/
 .idea/
 
 # Visual Studio cahche
