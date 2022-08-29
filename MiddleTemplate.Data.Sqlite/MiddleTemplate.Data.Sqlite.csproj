@@ -9,7 +9,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.8" />
-		<PackageReference Include="NeerCore.Data.EntityFramework" Version="1.5.1" />
+		<PackageReference Include="NeerCore.Data.EntityFramework" Version="1.5.3" />
 		<PackageReference Include="Sieve" Version="2.5.5" />
 	</ItemGroup>
 
